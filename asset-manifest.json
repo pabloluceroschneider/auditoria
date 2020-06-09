@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/auditandoetica/static/css/main.f210ca21.chunk.css",
+    "main.js": "/auditandoetica/static/js/main.4ed3ed75.chunk.js",
+    "main.js.map": "/auditandoetica/static/js/main.4ed3ed75.chunk.js.map",
+    "runtime-main.js": "/auditandoetica/static/js/runtime-main.3076872d.js",
+    "runtime-main.js.map": "/auditandoetica/static/js/runtime-main.3076872d.js.map",
+    "static/js/2.3cbf902f.chunk.js": "/auditandoetica/static/js/2.3cbf902f.chunk.js",
+    "static/js/2.3cbf902f.chunk.js.map": "/auditandoetica/static/js/2.3cbf902f.chunk.js.map",
+    "index.html": "/auditandoetica/index.html",
+    "precache-manifest.21ba88d8240bd1427383921818f7e37e.js": "/auditandoetica/precache-manifest.21ba88d8240bd1427383921818f7e37e.js",
+    "service-worker.js": "/auditandoetica/service-worker.js",
+    "static/css/main.f210ca21.chunk.css.map": "/auditandoetica/static/css/main.f210ca21.chunk.css.map",
+    "static/js/2.3cbf902f.chunk.js.LICENSE.txt": "/auditandoetica/static/js/2.3cbf902f.chunk.js.LICENSE.txt",
+    "static/media/simbolo0.png": "/auditandoetica/static/media/simbolo0.c9592cb8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3076872d.js",
+    "static/js/2.3cbf902f.chunk.js",
+    "static/css/main.f210ca21.chunk.css",
+    "static/js/main.4ed3ed75.chunk.js"
+  ]
+}
