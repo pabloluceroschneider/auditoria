@@ -5,7 +5,7 @@ const Decision = (props) => {
     const { optionA, optionB } = props;
 
 	return (
-        <div className="two-columns">
+        <div className="decision">
             <Option {...optionA} />
             <Option {...optionB} />
 		</div>

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Context from './Context';
 import Paginator from './Paginator';
 import Decision from './Decision';
+import Body from './Body';
 import Datos from '../data';
 
 const Gestor = () => {
@@ -21,14 +22,16 @@ const Gestor = () => {
 			<h1>{item.title}</h1>
 
 			<div className="container.content" >
-				<p className="item.content">{item.content}</p>
-
-				{item.decision ? (
-					<Decision
-						optionA={{ item: item.decision.opA, handle: () => handlePag(item.decision.opA.go) }}
-						optionB={{ item: item.decision.opB, handle: () => handlePag(item.decision.opB.go) }}
-					/>
-				) : null}
+				
+				{item.body ?
+				(<Body {...item.body} />)
+				: 
+				(<Decision
+					optionA={{ item: item.decision.opA, handle: () => handlePag(item.decision.opA.go) }}
+					optionB={{ item: item.decision.opB, handle: () => handlePag(item.decision.opB.go) }}
+				/>) 
+				}
+				
 			</div>
 
 			<Paginator
