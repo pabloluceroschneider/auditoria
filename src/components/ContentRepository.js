@@ -11,9 +11,11 @@ const ContentRepository = props => {
         case 'video':
             return (
                 <div class="video">
-                    <iframe class="responsive-iframe" src={content} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="responsive-iframe" src={content} frameborder="0" title="Youtube video" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             )
+        default:
+            return
     }
 }
 
