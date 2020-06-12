@@ -1,7 +1,6 @@
 import React from 'react';
-import Decision from './Decision'
 
-const Body = props => {
+const ContentRepository = props => {
     const { type, content  } = props;
 
     switch (type) {
@@ -15,10 +14,8 @@ const Body = props => {
                     <iframe class="responsive-iframe" src={content} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             )
-
     }
-    return 
 }
 
-export default Body;
+export default ContentRepository;
 

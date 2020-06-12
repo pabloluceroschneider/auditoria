@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Context from './Context';
+import CustomFragment from './CustomFragment';
 import Gestor from './Gestor';
 import Button from './Button';
 import logo from '../assets/simbolo0.png';
@@ -8,7 +8,7 @@ function App() {
 	const [ home, setHome ] = useState(true);
 
 	return home ? (
-		<Context>
+		<CustomFragment>
 			<div className="firstPage">
 				<img src={logo} className="App-logo" alt="logo" />
 				<div>
@@ -36,7 +36,7 @@ function App() {
 				</div>
 			</div>
 			<Button handle={setHome} title="Siguiente" />
-		</Context>
+		</CustomFragment>
 	) : (
 		<Gestor />
 	);
