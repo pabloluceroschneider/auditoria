@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/auditoria/static/css/main.f210ca21.chunk.css",
-    "main.js": "/auditoria/static/js/main.64e0df56.chunk.js",
-    "main.js.map": "/auditoria/static/js/main.64e0df56.chunk.js.map",
+    "main.css": "/auditoria/static/css/main.d37868c2.chunk.css",
+    "main.js": "/auditoria/static/js/main.1beee400.chunk.js",
+    "main.js.map": "/auditoria/static/js/main.1beee400.chunk.js.map",
     "runtime-main.js": "/auditoria/static/js/runtime-main.8ce1c217.js",
     "runtime-main.js.map": "/auditoria/static/js/runtime-main.8ce1c217.js.map",
     "static/js/2.3cbf902f.chunk.js": "/auditoria/static/js/2.3cbf902f.chunk.js",
     "static/js/2.3cbf902f.chunk.js.map": "/auditoria/static/js/2.3cbf902f.chunk.js.map",
     "index.html": "/auditoria/index.html",
-    "precache-manifest.37da9501fa0a06fa5cd99da3030354f6.js": "/auditoria/precache-manifest.37da9501fa0a06fa5cd99da3030354f6.js",
+    "precache-manifest.3175fe3c0d0923acd71c4346b2ba3f91.js": "/auditoria/precache-manifest.3175fe3c0d0923acd71c4346b2ba3f91.js",
     "service-worker.js": "/auditoria/service-worker.js",
-    "static/css/main.f210ca21.chunk.css.map": "/auditoria/static/css/main.f210ca21.chunk.css.map",
+    "static/css/main.d37868c2.chunk.css.map": "/auditoria/static/css/main.d37868c2.chunk.css.map",
     "static/js/2.3cbf902f.chunk.js.LICENSE.txt": "/auditoria/static/js/2.3cbf902f.chunk.js.LICENSE.txt",
     "static/media/simbolo0.png": "/auditoria/static/media/simbolo0.c9592cb8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8ce1c217.js",
     "static/js/2.3cbf902f.chunk.js",
-    "static/css/main.f210ca21.chunk.css",
-    "static/js/main.64e0df56.chunk.js"
+    "static/css/main.d37868c2.chunk.css",
+    "static/js/main.1beee400.chunk.js"
   ]
 }
