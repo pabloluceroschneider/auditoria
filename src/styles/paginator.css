@@ -1,0 +1,11 @@
+.two-columns{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    justify-content: center;
+    margin: 20px 10px 10px 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 40px;
+  }
+  

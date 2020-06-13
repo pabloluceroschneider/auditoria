@@ -1,0 +1,12 @@
+
+.App-link {
+  color: #61dafb;
+  border: 1px solid #61dafb;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.App-link:hover{
+  background-color: #61dafb;
+  color: aliceblue;
+}
