@@ -1,11 +1,8 @@
 import React, { useState } from 'react';
 import CustomFragment from './CustomFragment';
 import Paginator from './Paginator';
-import Decision from './Decision';
 import ContentRepository from './ContentRepository';
 import Datos from '../data';
-
-
 
 const Gestor = () => {
 	const [ data ] = useState(Datos());
@@ -23,14 +20,7 @@ const Gestor = () => {
 		return <h1>{item.title}</h1>
 	};
 	const renderBody = () => {
-		if (item.body ){
-			return <ContentRepository {...item.body} />
-		}else{
-			return <Decision
-						optionA={{ item: item.decision.opA, handle: () => handlePag(item.decision.opA.go) }}
-						optionB={{ item: item.decision.opB, handle: () => handlePag(item.decision.opB.go) }}
-					/>
-				}
+		return <ContentRepository {...item.body} handlePag={handlePag}/>
 	};
 	const renderFooter = () => {
 		return (

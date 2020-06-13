@@ -3,7 +3,7 @@ export default () => {
 		{
 			page: {
 				current: 1,
-				next: 2
+				next: 8
 			},
 			title: 'Auditando tu Ética',
 			body:{
@@ -90,17 +90,20 @@ export default () => {
 				next: -1
 			},
 			title: 'Decision',
-			decision: {
-				opA: {
-					title: 'Ser Honesto',
-					go: 4
-				},
-				opB: {
-					title: 'Robar',
-					go: 5
+			body: {
+				type:'decision',
+				content: {
+					opA: {
+						title: 'Ser Honesto',
+						go: 4
+					},
+					opB: {
+						title: 'Robar',
+						go: 5
+					}
 				}
 			}
-		},
+		}
 
 		// {
 		// 	page: {

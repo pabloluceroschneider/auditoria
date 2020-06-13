@@ -1,7 +1,8 @@
 import React from 'react';
+import Option from './Option';
 
 const ContentRepository = props => {
-    const { type, content  } = props;
+    const { type, content } = props;
 
     switch (type) {
         case 'string':
@@ -10,9 +11,18 @@ const ContentRepository = props => {
                 )
         case 'video':
             return (
-                <div class="video">
-                    <iframe class="responsive-iframe" src={content} frameborder="0" title="Youtube video" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div className="video">
+                    <iframe className="responsive-iframe" src={content} frameBorder="0" title="Youtube video" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
+            )
+        case 'decision':
+            const { opA, opB } = content;
+            const { handlePag } = props;
+            return (
+                <div className="decision">
+                    <Option {...opA} handlePag={handlePag} />
+                    <Option {...opB} handlePag={handlePag} />
+            </div>
             )
         default:
             return
