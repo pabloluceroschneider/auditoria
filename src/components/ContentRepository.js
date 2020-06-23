@@ -24,6 +24,11 @@ const ContentRepository = props => {
                     <Option {...opB} handlePag={handlePag} />
             </div>
             )
+        case 'image':
+            const logo = require(`../assets/${content}`);
+            return (
+                <img className="image" src={logo}/>
+            )
         default:
             return
     }

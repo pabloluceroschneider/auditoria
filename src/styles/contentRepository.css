@@ -1,7 +1,7 @@
 
 .decision{
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50% 50%;
   grid-gap: 10px;
   width: auto;
 }
@@ -28,4 +28,9 @@
   width: 80%;
   height: auto;
   max-height: 20vh;
+}
+
+.image{
+  height: 400px;
+  width: 100%;
 }
