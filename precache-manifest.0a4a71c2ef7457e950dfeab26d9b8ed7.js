@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8eda4515b82a22e6af90ba1ff2233359",
+    "revision": "4b77bb6248bf714dc8a6d0bee0b6c7e2",
     "url": "/auditoria/index.html"
   },
   {
-    "revision": "293cfba338942975e3cf",
+    "revision": "e49b7469a63971f63b1d",
     "url": "/auditoria/static/css/main.51b50c41.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/auditoria/static/js/2.4325913e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "293cfba338942975e3cf",
-    "url": "/auditoria/static/js/main.d22510f3.chunk.js"
+    "revision": "e49b7469a63971f63b1d",
+    "url": "/auditoria/static/js/main.b8cd8cce.chunk.js"
   },
   {
     "revision": "b4078dab0e7cdab31589",
