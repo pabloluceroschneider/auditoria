@@ -281,7 +281,7 @@ export default () => {
 		{
 			page: {
 				back: 11,
-				current: 10,
+				current: 12,
 				next: -1
 			},
 			title: 'Conclusiones...',
