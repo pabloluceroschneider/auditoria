@@ -29,6 +29,14 @@ const ContentRepository = props => {
             return (
                 <img className="image" src={logo} alt={"Img No Disponible"}/>
             )
+        case 'lista':
+            return (
+                <ol>
+                    {content.map( li => {
+                        return <li>{li}</li>
+                    })}
+                </ol>
+            )
         default:
             return
     }

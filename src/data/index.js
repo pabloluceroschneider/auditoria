@@ -263,43 +263,62 @@ export default () => {
 				current: 11,
 				next: 12
 			},
-			title: 'Conclusiones...',
+			title: 'Entonces, a tener en cuenta: ',
 			body: {
-				type:'string',
-				content: 'El auditor siempre debe emplear sus'+
-				'conocimientos para el cumplimiento de la ley, y su trato en'+
-				'lo laboral y personal debe ejercerse sin discriminación'+
-				'alguna y bajo el marco de la libre competencia. El auditor'+
-				'deberá evitar y aprovechar los datos obtenidos de la'+
-				'auditoría para entrar en competencia desleal con'+
-				'profesionales relacionados con ella de otras áreas del'+
-				'conocimiento. Debe apoyar a la empresa a cumplimentar las'+
-				'normas, procedimientos y controles de las auditorias de'+
-				'sistemas de información.'
+				type:'image',
+				content: 'etica_moral_diablo_angel.jpg'						
 			}
 		},
 		{
 			page: {
 				back: 11,
 				current: 12,
-				next: -1
+				next: 13
+			},
+			title: 'Algunos de los Principios Éticos: ',
+			body: {
+				type:'lista',
+				content: ['Principio del beneficio auditado',
+					      'Principio de calidad',
+						  'Principio de capacidad',
+						  'Principio de cautela',
+						  'Principio de criterio propio',
+						  'Principio de legalidad'
+					]  				
+			}
+		},
+		{
+			page: {
+				back: 12,
+				current: 13,
+				next: 14
 			},
 			title: 'Conclusiones...',
 			body: {
 				type:'string',
-				content: 'Muchas gracias por jugar!'
+				content: 'El auditor siempre debe emplear sus'+
+				' conocimientos para el cumplimiento de la ley, y su trato en'+
+				' lo laboral y personal debe ejercerse sin discriminación'+
+				' alguna y bajo el marco de la libre competencia. El auditor'+
+				' deberá evitar y aprovechar los datos obtenidos de la'+
+				' auditoría para entrar en competencia desleal con'+
+				' profesionales relacionados con ella de otras áreas del'+
+				' conocimiento. Debe apoyar a la empresa a cumplimentar las'+
+				' normas, procedimientos y controles de las auditorias de'+
+				' sistemas de información.'
+			}
+		},
+		{
+			page: {
+				back: 13,
+				current: 14,
+				next: -1
+			},
+			title: '',
+			body: {
+				type:'string',
+				content: 'Y consejo: Siempre rodearse de buenas personas :)'
 			}
 		}
-		// {
-		// 	page: {
-		// 		current: 9,
-		// 		next: 10
-		// 	},
-		// 	title: '¿Video?',
-		// 	body: {
-		// 		type:'video',
-		// 		content:'https://www.youtube.com/embed/i6pwCBrmN8Q'
-		// 	}
-		// },
 	];
 };
