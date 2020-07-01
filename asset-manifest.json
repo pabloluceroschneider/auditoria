@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/auditoria/static/css/main.51b50c41.chunk.css",
-    "main.js": "/auditoria/static/js/main.b8cd8cce.chunk.js",
-    "main.js.map": "/auditoria/static/js/main.b8cd8cce.chunk.js.map",
+    "main.js": "/auditoria/static/js/main.4cba4ce7.chunk.js",
+    "main.js.map": "/auditoria/static/js/main.4cba4ce7.chunk.js.map",
     "runtime-main.js": "/auditoria/static/js/runtime-main.8ce1c217.js",
     "runtime-main.js.map": "/auditoria/static/js/runtime-main.8ce1c217.js.map",
     "static/js/2.4325913e.chunk.js": "/auditoria/static/js/2.4325913e.chunk.js",
     "static/js/2.4325913e.chunk.js.map": "/auditoria/static/js/2.4325913e.chunk.js.map",
     "index.html": "/auditoria/index.html",
-    "precache-manifest.0a4a71c2ef7457e950dfeab26d9b8ed7.js": "/auditoria/precache-manifest.0a4a71c2ef7457e950dfeab26d9b8ed7.js",
+    "precache-manifest.0bc5c9e5acec052ebd3369374821df52.js": "/auditoria/precache-manifest.0bc5c9e5acec052ebd3369374821df52.js",
     "service-worker.js": "/auditoria/service-worker.js",
     "static/css/main.51b50c41.chunk.css.map": "/auditoria/static/css/main.51b50c41.chunk.css.map",
     "static/js/2.4325913e.chunk.js.LICENSE.txt": "/auditoria/static/js/2.4325913e.chunk.js.LICENSE.txt",
     "static/media/amenazas-internas.jpg": "/auditoria/static/media/amenazas-internas.3ed21140.jpg",
     "static/media/enron.jpeg": "/auditoria/static/media/enron.6cfc6951.jpeg",
+    "static/media/etica_moral_diablo_angel.jpg": "/auditoria/static/media/etica_moral_diablo_angel.4c9a8ac0.jpg",
     "static/media/prision.jpg": "/auditoria/static/media/prision.55f64bd7.jpg",
     "static/media/quehacemo.jpg": "/auditoria/static/media/quehacemo.9925f893.jpg",
     "static/media/simbolo0.png": "/auditoria/static/media/simbolo0.c9592cb8.png"
@@ -22,6 +23,6 @@
     "static/js/runtime-main.8ce1c217.js",
     "static/js/2.4325913e.chunk.js",
     "static/css/main.51b50c41.chunk.css",
-    "static/js/main.b8cd8cce.chunk.js"
+    "static/js/main.4cba4ce7.chunk.js"
   ]
 }

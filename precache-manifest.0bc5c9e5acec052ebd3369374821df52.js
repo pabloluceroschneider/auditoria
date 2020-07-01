@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4b77bb6248bf714dc8a6d0bee0b6c7e2",
+    "revision": "043f46bbbdbb0bd754355dafafe05c50",
     "url": "/auditoria/index.html"
   },
   {
-    "revision": "e49b7469a63971f63b1d",
+    "revision": "8ef2029cbc8195eaa651",
     "url": "/auditoria/static/css/main.51b50c41.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/auditoria/static/js/2.4325913e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e49b7469a63971f63b1d",
-    "url": "/auditoria/static/js/main.b8cd8cce.chunk.js"
+    "revision": "8ef2029cbc8195eaa651",
+    "url": "/auditoria/static/js/main.4cba4ce7.chunk.js"
   },
   {
     "revision": "b4078dab0e7cdab31589",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6cfc69519ac6d8323fdb198fe9a1ecb7",
     "url": "/auditoria/static/media/enron.6cfc6951.jpeg"
+  },
+  {
+    "revision": "4c9a8ac070dad84f596a3bdc1b94e7e4",
+    "url": "/auditoria/static/media/etica_moral_diablo_angel.4c9a8ac0.jpg"
   },
   {
     "revision": "55f64bd7725597637d5b1203686b3f79",
