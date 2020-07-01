@@ -263,7 +263,7 @@ export default () => {
 				current: 11,
 				next: 12
 			},
-			title: '',
+			title: 'Conclusiones...',
 			body: {
 				type:'string',
 				content: 'El auditor siempre debe emplear sus'+
@@ -278,8 +278,18 @@ export default () => {
 				'sistemas de información.'
 			}
 		},
-
-
+		{
+			page: {
+				back: 11,
+				current: 10,
+				next: -1
+			},
+			title: 'Conclusiones...',
+			body: {
+				type:'string',
+				content: 'Muchas gracias por jugar!'
+			}
+		}
 		// {
 		// 	page: {
 		// 		current: 9,

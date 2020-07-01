@@ -34,8 +34,8 @@ function App() {
 						<br />
 					</div>
 				</div>
-			</div>
 			<Button handle={setHome} title="Siguiente" />
+			</div>
 		</CustomFragment>
 	) : (
 		<Gestor />
