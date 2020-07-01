@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/auditoria/static/css/main.d37868c2.chunk.css",
-    "main.js": "/auditoria/static/js/main.1beee400.chunk.js",
-    "main.js.map": "/auditoria/static/js/main.1beee400.chunk.js.map",
+    "main.css": "/auditoria/static/css/main.50dd0959.chunk.css",
+    "main.js": "/auditoria/static/js/main.8c14d4f8.chunk.js",
+    "main.js.map": "/auditoria/static/js/main.8c14d4f8.chunk.js.map",
     "runtime-main.js": "/auditoria/static/js/runtime-main.8ce1c217.js",
     "runtime-main.js.map": "/auditoria/static/js/runtime-main.8ce1c217.js.map",
-    "static/js/2.3cbf902f.chunk.js": "/auditoria/static/js/2.3cbf902f.chunk.js",
-    "static/js/2.3cbf902f.chunk.js.map": "/auditoria/static/js/2.3cbf902f.chunk.js.map",
+    "static/js/2.4325913e.chunk.js": "/auditoria/static/js/2.4325913e.chunk.js",
+    "static/js/2.4325913e.chunk.js.map": "/auditoria/static/js/2.4325913e.chunk.js.map",
     "index.html": "/auditoria/index.html",
-    "precache-manifest.3175fe3c0d0923acd71c4346b2ba3f91.js": "/auditoria/precache-manifest.3175fe3c0d0923acd71c4346b2ba3f91.js",
+    "precache-manifest.2037a0012d2070b6309ed18382e4f260.js": "/auditoria/precache-manifest.2037a0012d2070b6309ed18382e4f260.js",
     "service-worker.js": "/auditoria/service-worker.js",
-    "static/css/main.d37868c2.chunk.css.map": "/auditoria/static/css/main.d37868c2.chunk.css.map",
-    "static/js/2.3cbf902f.chunk.js.LICENSE.txt": "/auditoria/static/js/2.3cbf902f.chunk.js.LICENSE.txt",
+    "static/css/main.50dd0959.chunk.css.map": "/auditoria/static/css/main.50dd0959.chunk.css.map",
+    "static/js/2.4325913e.chunk.js.LICENSE.txt": "/auditoria/static/js/2.4325913e.chunk.js.LICENSE.txt",
+    "static/media/amenazas-internas.jpg": "/auditoria/static/media/amenazas-internas.3ed21140.jpg",
+    "static/media/enron.jpeg": "/auditoria/static/media/enron.6cfc6951.jpeg",
+    "static/media/prision.jpg": "/auditoria/static/media/prision.55f64bd7.jpg",
+    "static/media/quehacemo.jpg": "/auditoria/static/media/quehacemo.9925f893.jpg",
     "static/media/simbolo0.png": "/auditoria/static/media/simbolo0.c9592cb8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8ce1c217.js",
-    "static/js/2.3cbf902f.chunk.js",
-    "static/css/main.d37868c2.chunk.css",
-    "static/js/main.1beee400.chunk.js"
+    "static/js/2.4325913e.chunk.js",
+    "static/css/main.50dd0959.chunk.css",
+    "static/js/main.8c14d4f8.chunk.js"
   ]
 }
