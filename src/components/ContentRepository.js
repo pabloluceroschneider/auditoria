@@ -27,7 +27,7 @@ const ContentRepository = props => {
         case 'image':
             const logo = require(`../assets/${content}`);
             return (
-                <img className="image" src={logo}/>
+                <img className="image" src={logo} alt={"Img No Disponible"}/>
             )
         default:
             return
