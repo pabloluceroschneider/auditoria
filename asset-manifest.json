@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/auditoria/static/css/main.50dd0959.chunk.css",
-    "main.js": "/auditoria/static/js/main.8c14d4f8.chunk.js",
-    "main.js.map": "/auditoria/static/js/main.8c14d4f8.chunk.js.map",
+    "main.css": "/auditoria/static/css/main.51b50c41.chunk.css",
+    "main.js": "/auditoria/static/js/main.d22510f3.chunk.js",
+    "main.js.map": "/auditoria/static/js/main.d22510f3.chunk.js.map",
     "runtime-main.js": "/auditoria/static/js/runtime-main.8ce1c217.js",
     "runtime-main.js.map": "/auditoria/static/js/runtime-main.8ce1c217.js.map",
     "static/js/2.4325913e.chunk.js": "/auditoria/static/js/2.4325913e.chunk.js",
     "static/js/2.4325913e.chunk.js.map": "/auditoria/static/js/2.4325913e.chunk.js.map",
     "index.html": "/auditoria/index.html",
-    "precache-manifest.2037a0012d2070b6309ed18382e4f260.js": "/auditoria/precache-manifest.2037a0012d2070b6309ed18382e4f260.js",
+    "precache-manifest.8728f8909a8e12e18de72709beeaf4d3.js": "/auditoria/precache-manifest.8728f8909a8e12e18de72709beeaf4d3.js",
     "service-worker.js": "/auditoria/service-worker.js",
-    "static/css/main.50dd0959.chunk.css.map": "/auditoria/static/css/main.50dd0959.chunk.css.map",
+    "static/css/main.51b50c41.chunk.css.map": "/auditoria/static/css/main.51b50c41.chunk.css.map",
     "static/js/2.4325913e.chunk.js.LICENSE.txt": "/auditoria/static/js/2.4325913e.chunk.js.LICENSE.txt",
     "static/media/amenazas-internas.jpg": "/auditoria/static/media/amenazas-internas.3ed21140.jpg",
     "static/media/enron.jpeg": "/auditoria/static/media/enron.6cfc6951.jpeg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.8ce1c217.js",
     "static/js/2.4325913e.chunk.js",
-    "static/css/main.50dd0959.chunk.css",
-    "static/js/main.8c14d4f8.chunk.js"
+    "static/css/main.51b50c41.chunk.css",
+    "static/js/main.d22510f3.chunk.js"
   ]
 }
