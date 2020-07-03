@@ -154,6 +154,118 @@ export default () => {
 			page: {
 				back: 102,
 				current: 103,
+				next: 104
+			},
+			title: 'Game Over',
+			body: {
+				type:'image',
+				content:'prision.jpg'
+			}
+		},
+		{
+			page: {
+				back: 103,
+				current: 104,
+				next: 105
+			},
+			title: 'Pero, ¿Si podrías volver el tiempo?',
+			body: {
+				type:'image',
+				content:'matrix-roja-azul.jpg'
+			}
+		},
+		{
+			page: {
+				back: 104,
+				current: 105
+			},
+			title: '¿Qué harías?',
+			body: {
+				type:'decision',
+				content: {
+					opA: {
+						title: 'Los firmo feliz',
+						go: 105
+					},
+					opB: {
+						title: 'Doy un paso al costado.',
+						go: 106
+					}
+				}
+			}
+		},
+		{
+			page: {
+				back: 105,
+				current: 106,
+				next: 107
+			},
+			title: 'Decidiste dar una paso al costado',
+			body: {
+				type:'string',
+				content:'Le comunicaste al gerente tu decision de no participar.'+
+						'Te quedas con la consciencia tranquila. Pero no por mucho...'
+			}
+		},
+		{
+			page: {
+				back: 106,
+				current: 107,
+				next: 108
+			},
+			title: 'Decidiste dar una paso al costado',
+			body: {
+				type:'string',
+				content:'Tu jefe, insiste en el caso. Quiere alguien de confianza '+
+						'y de la empresa. No quieren alguien nuevo. "USTED y nadie mas que '+
+						'USTED puede firmar estos papeles" Te dicen, con un tono más agresivo.'
+
+			}
+		},
+		{
+			page: {
+				back: 107,
+				current: 108,
+				next: 109
+			},
+			title: 'Decidiste dar una paso al costado',
+			body: {
+				type:'string',
+				content:'La situación ya tiene otro ambiente. '+
+						'A pesar de todo, decidis seguir firme.'
+
+			}
+		},
+		{
+			page: {
+				back: 108,
+				current: 109,
+				next: 110
+			},
+			title: 'Decidiste dar una paso al costado',
+			body: {
+				type:'image',
+				content:'amenazas-internas.jpg'
+
+			}
+		},
+		{
+			page: {
+				back: 109,
+				current: 110,
+				next: 111
+			},
+			title: 'Comienzan las amenazas',
+			body: {
+				type:'string',
+				content:'La presión pasó a ser amenazas, que vinculan tu trabajo pero '+
+						'también la integridad de tu familia. Tenes que firmar esos papeles...'
+			}
+		},
+		{
+			page: {
+				back: 110,
+				current: 111,
 				next: 9
 			},
 			title: 'Game Over',
@@ -177,7 +289,7 @@ export default () => {
 		},
 		{
 			page: {
-				back: 9,
+				back: 200,
 				current: 201,
 				next: 202
 			},
@@ -221,7 +333,7 @@ export default () => {
 			page: {
 				back: 203,
 				current: 204,
-				next: 9
+				next: 205
 			},
 			title: 'Comienzan las amenazas',
 			body: {
@@ -232,7 +344,62 @@ export default () => {
 		},
 		{
 			page: {
-				back: 8,
+				back: 203,
+				current: 204,
+				next: 205
+			},
+			title: 'Debes firmar.',
+			body: {
+				type:'string',
+				content:'Tu jefe te quita tu libertad de decisión'
+			}
+		},
+		{
+			page: {
+				back: 204,
+				current: 205
+			},
+			title: 'Tienes que firmas esos informes.',
+			body: {
+				type:'decision',
+				content: {
+					opA: {
+						title: 'Los firmo, por obligación',
+						go: 206
+					},
+					opB: {
+						title: 'Doy un paso al costado.',
+						go: 205
+					}
+				}
+			}
+		},
+		{
+			page: {
+				back: 205,
+				current: 206,
+				next: 207
+			},
+			title: 'Firmaste informes ilicítos.',
+			body: {
+				type:'image',
+				content:'enron.jpeg'
+			}
+		},
+		{
+			page: {
+				back: 206,
+				current: 207,
+				next: 9
+			},
+			title: 'Game Over',
+			body: {
+				type:'image',
+				content:'prision.jpg'
+			}
+		},
+		{
+			page: {
 				current: 9,
 				next: 10
 			},
@@ -263,6 +430,181 @@ export default () => {
 				current: 11,
 				next: 12
 			},
+			title: 'Siguiente Juego: El dilema del Tranvía',
+			body: {
+				type:'image',
+				content:'tranvia1.jpg'
+			}
+		},
+		{
+			page: {
+				back: 11,
+				current: 12,
+				next: 13
+			},
+			title: 'El dilema del Tranvía',
+			body: {
+				type:'lista',
+				content:[
+					'¿Vale más una vida que cinco vidas?',
+					'¿Somos capaces de decidir quien vive y quien no?',
+					'Nuestras decisiones impactan en la vida de los demás',
+					'¿Existe decision correcta?'
+				]
+			}
+		},
+		{
+			page: {
+				back: 12,
+				current: 13,
+				next: 14
+			},
+			title: 'El dilema del Tranvía',
+			body: {
+				type:'image',
+				content:'dilema-significado.jpg'
+			}
+		},
+		{
+			page: {
+				back: 13,
+				current: 14,
+				next: 15
+			},
+			title: 'El dilema del Tranvía',
+			body: {
+				type:'string',
+				content:'Como muestra la imagen, una persona debe decidir si el tren '+
+						'toma la vía que mata a una persona, o la vía que mata a cinco personas.' 
+			}
+		},
+		{
+			page: {
+				back: 14,
+				current: 15,
+			},
+			title: '¿Qué harías?',
+			body: {
+				type:'decision',
+				content: {
+					opA: {
+						title: 'Vía con una persona.',
+						go: 300
+					},
+					opB: {
+						title: 'Vía con cinco personas.',
+						go: 400
+					}
+				}
+			}
+		},
+		{
+			page: {
+				back: 14,
+				current: 300,
+				next: 16
+			},
+			title: 'Vía con una persona.',
+			body: {
+				type:'string',
+				content:'La mayoría de las personas eligen pensando en el daño menor.'
+			}
+		},
+		{
+			page: {
+				back: 14,
+				current: 400,
+				next: 16
+			},
+			title: 'Vía con cinco personas.',
+			body: {
+				type:'lista',
+				content: [
+					'¿La otra persona es un familiar?',
+					'¿La otra persona es más importante?'
+				]
+			}
+		},
+		{
+			page: {
+				back: 14,
+				current: 16,
+				next: 17
+			},
+			title: 'Otra imagen ilustrativa',
+			body: {
+				type:'image',
+				content: 'tranvia-meme.jpeg'
+			}
+		},
+		{
+			page: {
+				back: 16,
+				current: 17,
+				next: 18
+			},
+			title: 'Auditando Éticas',
+			body: {
+				type:'string',
+				content: 'Continuaremos analizando la relación entre la ética '+
+						'y la auditoría.'
+			}
+		},
+		{
+			page: {
+				back: 16,
+				current: 17,
+				next: 18
+			},
+			title: 'Auditando Éticas',
+			body: {
+				type:'string',
+				content: 'Continuaremos analizando la relación entre la ética '+
+						'y la auditoría.'
+			}
+		},
+		{
+			page: {
+				back: 17,
+				current: 18,
+				next: 19
+			},
+			title: 'Alegoría de la caverna',
+			body: {
+				type:'image',
+				content: 'plato-allegory.jpg'
+			}
+		},
+		{
+			page: {
+				back: 17,
+				current: 18,
+				next: 19
+			},
+			title: 'Alegoría de la caverna',
+			body: {
+				type:'image',
+				content: 'plato-allegory.jpg'
+			}
+		},
+		{
+			page: {
+				back: 18,
+				current: 19,
+				next: 20
+			},
+			title: 'Explicación personal',
+			body: {
+				type:'video',
+				content: 'https://www.youtube.com/embed/vLjHBEQLjX0'
+			},
+		},
+		{
+			page: {
+				back: 19,
+				current: 20,
+				next: 21
+			},
 			title: 'Entonces, a tener en cuenta: ',
 			body: {
 				type:'image',
@@ -271,9 +613,9 @@ export default () => {
 		},
 		{
 			page: {
-				back: 11,
-				current: 12,
-				next: 13
+				back: 20,
+				current: 21,
+				next: 22
 			},
 			title: 'Algunos de los Principios Éticos: ',
 			body: {
@@ -289,9 +631,9 @@ export default () => {
 		},
 		{
 			page: {
-				back: 12,
-				current: 13,
-				next: 14
+				back: 21,
+				current: 22,
+				next: 23
 			},
 			title: 'Conclusiones...',
 			body: {
@@ -310,8 +652,8 @@ export default () => {
 		},
 		{
 			page: {
-				back: 13,
-				current: 14,
+				back: 22,
+				current: 23,
 				next: -1
 			},
 			title: '',
@@ -320,5 +662,5 @@ export default () => {
 				content: 'Y consejo: Siempre rodearse de buenas personas :)'
 			}
 		}
-	];
+	]
 };
