@@ -376,9 +376,33 @@ export default () => {
 		},
 		{
 			page: {
-				back: 205,
 				current: 206,
 				next: 207
+			},
+			title: 'Firmaste informes ilicítos.',
+			body: {
+				type:'string',
+				content:'Todo marcha bien los primeros dias. Incluso los meses pasan '+
+						'y todo parece normal. No hay rastros ni evidencias del fraude que cometiste.'
+			}
+		},
+		{
+			page: {
+				back: 206,
+				current: 207,
+				next: 208
+			},
+			title: 'Firmaste informes ilicítos.',
+			body: {
+				type:'string',
+				content:'Hasta que de un día para el otro, la verdad comienza a salir a luz... '
+			}
+		},
+		{
+			page: {
+				back: 207,
+				current: 208,
+				next: 209
 			},
 			title: 'Firmaste informes ilicítos.',
 			body: {
@@ -388,8 +412,8 @@ export default () => {
 		},
 		{
 			page: {
-				back: 206,
-				current: 207,
+				back: 208,
+				current: 209,
 				next: 9
 			},
 			title: 'Game Over',
