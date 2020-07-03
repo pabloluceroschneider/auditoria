@@ -185,7 +185,7 @@ export default () => {
 				content: {
 					opA: {
 						title: 'Los firmo feliz',
-						go: 105
+						go: 112
 					},
 					opB: {
 						title: 'Doy un paso al costado.',
@@ -266,6 +266,18 @@ export default () => {
 			page: {
 				back: 110,
 				current: 111,
+				next: 9
+			},
+			title: 'Game Over',
+			body: {
+				type:'image',
+				content:'prision.jpg'
+			}
+		},
+		{
+			page: {
+				back: 105,
+				current: 112,
 				next: 9
 			},
 			title: 'Game Over',
@@ -368,10 +380,35 @@ export default () => {
 						go: 206
 					},
 					opB: {
-						title: 'Doy un paso al costado.',
-						go: 205
+						title: 'Renuncio.',
+						go: 500
 					}
 				}
+			}
+		},
+		{
+			page: {
+				back: 205,
+				current: 500,
+				next: 501
+			},
+			title: 'Renunciaste',
+			body: {
+				type:'image',
+				content:'renuncio.jpeg'
+			}
+		},
+		{
+			page: {
+				back: 500,
+				current: 501,
+				next: 10
+			},
+			title: 'Renunciaste',
+			body: {
+				type:'string',
+				content:'Tomaste una decisión muy valiente. Una persona como vos, '+
+						'¡seguro encontrá un mejor empleo! De todas formas...'
 			}
 		},
 		{
@@ -555,7 +592,7 @@ export default () => {
 				current: 16,
 				next: 17
 			},
-			title: 'Otra imagen ilustrativa',
+			title: 'Tranvía y COVID-19',
 			body: {
 				type:'image',
 				content: 'tranvia-meme.jpeg'
